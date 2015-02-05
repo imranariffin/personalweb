@@ -1,0 +1,45 @@
+module part5 (SW, KEY, LEDR);
+	input [7:0]SW;
+	input [1:0]KEY;
+	output [8:0]LEDR;
+	
+	wire [7:0]sum, A, S;
+	wire carry;
+	
+	assign {carry,sum} = A + S;
+	
+	DFlopper A0 (SW[7], KEY[1], KEY[0], A[7]);
+	DFlopper A1 (SW[6], KEY[1], KEY[0], A[6]);
+	DFlopper A2 (SW[5], KEY[1], KEY[0], A[5]);
+	DFlopper A3 (SW[4], KEY[1], KEY[0], A[4]);
+	DFlopper A4 (SW[3], KEY[1], KEY[0], A[3]);
+	DFlopper A5 (SW[2], KEY[1], KEY[0], A[2]);
+	DFlopper A6 (SW[1], KEY[1], KEY[0], A[1]);
+	DFlopper A7 (SW[0], KEY[1], KEY[0], A[0]);
+	
+	DFlopper SUM0 (sum[7], KEY[1], KEY[0], S[7]);
+	DFlopper SUM1 (sum[6], KEY[1], KEY[0], S[6]);
+	DFlopper SUM2 (sum[5], KEY[1], KEY[0], S[5]);
+	DFlopper SUM3 (sum[4], KEY[1], KEY[0], S[4]);
+	DFlopper SUM4 (sum[3], KEY[1], KEY[0], S[3]);
+	DFlopper SUM5 (sum[2], KEY[1], KEY[0], S[2]);
+	DFlopper SUM6 (sum[1], KEY[1], KEY[0], S[1]);
+	DFlopper SUM7 (sum[0], KEY[1], KEY[0], S[0]);
+	
+	assign LEDR[7:0] = S[7:0];
+	
+	DFlopper OVERFLOW (carry, KEY[1], KEY[0], LEDR[8]);
+endmodule
+
+module DFlopper (d, clock, reset, q);
+	input d, clock, reset;
+	output reg q;
+	
+	always @ (posedge clock, negedge reset)						begin
+		if (!reset)
+			q <= 0;
+		else 
+			q <= d;															end
+endmodule
+	
+	

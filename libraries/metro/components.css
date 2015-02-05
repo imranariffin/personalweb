@@ -1,0 +1,793 @@
+/* TYPE = BUTTON */
+.type-metro-button .metro-button-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.type-metro-button .metro-button {
+	padding: 0 10px;
+	display: table-cell;
+	vertical-align: middle;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* TYPE = ICON */
+.type-metro-icon .metro-icon {
+	height: 100%;
+	background: center center no-repeat;
+	background-size: 50%;
+	border-radius: 50%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* TYPE = BADGE */
+.type-metro-badge .metro-badge-inner {
+	display: table;
+	width: 100%;
+	height: 100%;
+	background: center center no-repeat;
+}
+
+.type-metro-badge .metro-badge {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* TYPE = USER TILE */
+.type-metro-tile-user .metro-tile-user-inner {
+	text-align: right;
+	font-family: Segoe UI, sans-serif;
+	font-size: 14px;
+	height: 100%;
+}
+
+.type-metro-tile-user .metro-tile-user-title {
+	font-size: 150%;
+}
+
+.type-metro-tile-user .metro-tile-user-image {
+	float: right;
+	margin-left: 10px;
+	height: 100%;
+}
+
+/* TYPE = SYSTEMINFO TILE */
+.type-metro-tile-systeminfo .tile-systeminfo-inner {
+	background: black;
+	color: white;
+	font-family: Segoe UI, sans-serif;
+	font-size: 20px;
+	line-height: 26px;
+	padding: 20px;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-tile-systeminfo .tile-systeminfo-icons,.type-metro-tile-systeminfo .tile-systeminfo-time {
+	float: left;
+	margin-right: 20px;
+}
+
+.type-metro-tile-systeminfo .tile-systeminfo-time {
+	font-size: 60px;
+	line-height: 50px;
+}
+
+.type-metro-tile-systeminfo .tile-systeminfo-icons div {
+	width: 20px;
+	height: 20px;
+	margin: 3px 0 10px;
+	background: center center no-repeat;
+	background-size: contain;
+}
+
+.type-metro-tile-systeminfo .tile-systeminfo-icons .tile-systeminfo-icon-one
+	{
+	background-image:
+		url("https://s3.amazonaws.com/gallery.proto.io/generated/8e6ae2a7749a4ca9db087ea0259bac34_ffffff.svg")
+}
+
+.type-metro-tile-systeminfo .tile-systeminfo-icons .tile-systeminfo-icon-two
+	{
+	background-image:
+		url("https://s3.amazonaws.com/gallery.proto.io/generated/7e18347355c86704b357babfdced87b5_ffffff.svg")
+}
+
+/* TYPE = APPBAR */
+.type-metro-appbar .metro-appbar-inner {
+	overflow: hidden;
+	padding: 10px;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-appbar .metro-appbar-button {
+	text-align: center;
+	width: 80px;
+	position: relative;
+}
+
+.type-metro-appbar .metro-appbar-separator {
+	height: 100%;
+	width: 1px; background: white; background-clip: content-box;
+	padding: 0 10px;
+	float: left;
+}
+
+.type-metro-appbar .metro-appbar-button-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 auto 5px;
+	background: center center no-repeat;
+	border-radius: 50%;
+	background-size: 50%;
+}
+
+.type-metro-appbar.box.current-component .dynamic-property:before {
+	top: -2px; left: -2px; right: -2px; bottom: -2px;
+}
+
+.type-metro-appbar.box.current-component .dynamic-property .dynamic-property-actions {
+	bottom: -12px!important;
+}
+
+.type-metro-appbar.box.current-component .dynamic-property.metro-appbar-separator .dynamic-property-actions {
+	margin-right: -9px;
+}
+
+
+/* TYPE = APPBAR MINI */
+.type-metro-appbar-mini .metro-appbar-mini-inner {
+	overflow: hidden;
+	padding: 10px;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.type-metro-appbar-mini .metro-appbar-button {
+	text-align: center;
+	height: 100%;
+	display: inline-block;
+	position: relative;
+	margin-right: 15px;
+}
+
+.type-metro-appbar-mini .metro-appbar-button:last-child {
+	margin-right: 0;	
+}
+
+.type-metro-appbar-mini .metro-appbar-button-icon {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto 5px;
+	background: center center no-repeat;
+	border-radius: 50%;
+	background-size: 50%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-appbar-mini.box.current-component .dynamic-property:before {
+	top: -2px; left: -2px; right: -2px; bottom: -2px;
+}
+
+.type-metro-appbar-mini #delete-dynamic-property, .type-metro-appbar-mini #duplicate-dynamic-property, .type-metro-appbar-mini #add-dynamic-property-after {
+	bottom: 2px;	
+}
+
+/* TYPE = CHARMS */
+.type-metro-charms .metro-charms-outer {
+	overflow: hidden;
+	display: table;
+	padding: 10px;
+	height: 100%;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-charms .metro-charms-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.type-metro-charms .metro-charms-button {
+	text-align: center;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.type-metro-charms .metro-charms-button:last-child {
+	margin-bottom: 0;
+}
+
+.type-metro-charms .metro-charms-button-icon {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto 15px;
+	background: center center no-repeat;
+	background-size: contain;
+}
+
+.type-metro-charms.box.current-component .dynamic-property:before {
+	top: -2px; left: -2px; right: -2px; bottom: -2px;
+}
+
+.type-metro-charms.box.current-component .dynamic-property .dynamic-property-actions {
+	bottom: -12px!important;
+}
+
+/* TYPE = FILTERS */
+.type-metro-filters .metro-filter {
+	display: inline-block;
+	position: relative;
+}
+
+.type-metro-filters .metro-filter input {
+	display: none;
+}
+
+.type-metro-filters.box.current-component .dynamic-property:before {
+	left: -8px; right: -8px; bottom: -1px;
+}
+
+.type-metro-filters.box.current-component .dynamic-property .dynamic-property-actions {
+	bottom: -11px!important;
+	margin-right: -8px;
+}
+
+/* TYPE = CONTEXT MENU */
+.type-metro-contextmenu {
+	padding: 10px;
+}
+
+.type-metro-contextmenu .metro-contextmenu-item {
+	padding: 5px 10px;
+	position: relative;
+}
+
+.type-metro-contextmenu .metro-contextmenu-item:first-child {
+	padding-top: 0;
+}
+
+.type-metro-contextmenu.box.current-component .dynamic-property .dynamic-property-actions {
+	bottom: -3px!important;
+}
+
+/* TYPE = DROPDOWN */
+.type-metro-dropdown .metro-dropdown-contextmenu {
+	padding: 10px;
+	float: right;
+	display: none;
+}
+
+.current-component.type-metro-dropdown .metro-dropdown-contextmenu {
+	display: inline-block;
+}
+
+.type-metro-dropdown .metro-dropdown-item {
+	padding: 5px 10px;
+	position: relative;
+}
+
+.type-metro-dropdown .metro-dropdown-item:first-child {
+	padding-top: 0;
+}
+
+.type-metro-dropdown .metro-dropdown-active-value {
+	margin-left: 10px;
+}
+
+.type-metro-dropdown .dropdown-trigger {
+	background: right center no-repeat;
+	background-size: auto 60%;
+	height: 100%;
+}
+
+.type-metro-dropdown.box.current-component .dynamic-property .dynamic-property-actions {
+	bottom: -3px!important;
+}
+
+/* TYPE = DIALOG */
+.type-metro-dialog-inner {
+	padding: 20px;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-dialog-dialog .type-metro-dialog-inner {
+	width: 80%;
+	margin: 0 auto;
+	border: 0 none !important;
+}
+
+.type-metro-dialog-warningbar .type-metro-dialog-inner {
+	border: 0 none !important;
+}
+
+.type-metro-dialog .dialog-title {
+	font-size: 150%;
+}
+
+.type-metro-dialog .dialog-text {
+	padding: 20px 0 30px;
+}
+
+.type-metro-dialog .dialog-title:empty + .dialog-text {
+	padding-top: 0;
+}
+
+.type-metro-dialog .metro-dialog-buttons {
+	text-align: right;
+	position: relative;
+}
+
+.type-metro-dialog-warningbar .metro-dialog-buttons {
+	float: right;
+}
+
+.type-metro-dialog .metro-dialog-button {
+	display: inline-block;
+	padding: 5px 10px;
+	margin-left: 10px;
+	position: relative;
+}
+
+.type-metro-dialog.box.current-component .dynamic-property .dynamic-property-actions {
+	bottom: -13px!important;
+}
+
+/* TYPE = TOAST MINI */
+.type-metro-toast-mini .metro-toast-mini-inner {
+	padding: 0 10px;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-toast-mini .metro-toast-mini-inner .toast-icon {
+	margin-right: 20px;
+	height: 100%;
+	padding: 5px 0;
+	float: left;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-toast-mini .metro-toast-mini-inner .toast-title {
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.type-metro-toast-mini .metro-toast-mini-inner [data-editableproperty] {
+	line-height: normal;	
+}
+
+/* TYPE = TOAST */
+.type-metro-toast .metro-toast-inner {
+	padding: 20px 20px 10px;
+	height: 100%;
+	line-height: 130%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-toast .toast-thumb {
+	height: 100%;
+	float: left;
+	margin-right: 10px;
+}
+
+.type-metro-toast .toast-thumb img {
+	height: 100%;
+}
+
+.type-metro-toast .toast-icon {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	background: right bottom no-repeat;
+	background-size: contain;
+}
+
+.type-metro-toast .toast-icon img {
+	visibility: hidden;
+}
+
+.type-metro-toast .metro-toast-inner .toast-title {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.type-metro-toast .metro-toast-inner .toast-title:empty {
+	margin-bottom: 0;
+}
+
+/******************** TILES **********************/ /* GENERIC STYLES */
+.type-metro-tile .metro-tile-branding {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	background: center center no-repeat;
+	background-size: contain;
+	padding-top: 30px;
+	width: 30px;
+	margin-right: 10px;
+}
+
+.type-metro-tile .metro-tile-branding.metro-tile-branding-text {
+	width: auto; padding-top: 15px;
+}
+
+.type-metro-tile .metro-tile-badge {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	padding: 5px 10px;
+	min-height: 15px;
+	min-width: 10px;
+	text-align: center;
+	background: center center no-repeat;
+}
+
+.type-metro-tile .metro-tile-badge-glyph {
+	height: 20px;
+}
+
+.type-metro-tile .metro-tile-badge.metro-tile-badge-,.type-metro-tile .metro-tile-branding.metro-tile-branding- {
+	display: none;
+}
+
+
+/* TYPE = ICON TILE */
+.type-metro-tile-icon .metro-tile-icon-inner {
+	width: 100%;
+	height: 100%;
+	background: center center no-repeat;
+	background-size: contain;
+	background-origin: content-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 30px;
+	position: relative;
+}
+
+/* TYPE = IMAGE TILE */
+.type-metro-tile-image .metro-tile-image-inner {
+	width: 100%;
+	height: 100%;
+	background: center center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.type-metro-tile-image-withcaption .metro-tile-caption {
+	padding: 10px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.type-metro-tile-image-withcaption .metro-tile-caption .metro-tile-branding
+	{
+	position: static;
+	float: left;
+}
+
+.type-metro-tile-image-withcaption .metro-tile-caption .metro-tile-badge-number+.metro-tile-caption-text,.type-metro-tile-image-withcaption .metro-tile-caption .metro-tile-badge-glyph+.metro-tile-caption-text
+	{
+	padding-right: 30px;
+}
+
+/* TYPE = TEXT TILE */
+.type-metro-tile-text .metro-tile-text-inner {
+	width: 100%;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px;
+	position: relative;
+}
+
+.type-metro-tile-text .metro-tile-text-title {
+	font-size: 150%;
+}
+
+.type-metro-tile-text .metro-tile-text-image {
+	width: 60px;
+	height: 100%;
+	background: top center no-repeat;
+	background-size: contain;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+/* TYPE = TEXTFIELD */
+.type-metro-textfield input, .type-metro-textarea textarea, .type-metro-textfield .faux-input, .type-metro-textarea .faux-input {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	border: medium none;
+	background: transparent;
+	padding: 0 10px;
+	outline: none !important;
+	box-shadow: none !important;
+	white-space: nowrap; overflow: hidden;
+}
+
+.type-metro-textarea .faux-input {
+	padding: 5px 10px;	
+}
+
+.type-metro-textfield .faux-input:empty, .type-metro-textfield .faux-input.placeholder-input, .type-metro-textarea .faux-input:empty, .type-metro-textarea .faux-input.placeholder-input {
+	display: none;
+}
+
+.type-metro-textfield .faux-input:empty + .faux-input.placeholder-input, .type-metro-textarea .faux-input:empty + .faux-input.placeholder-input {
+	display: block;
+}
+
+.type-metro-textfield.box.current-component [data-editableProperty] textarea, .type-metro-textarea.box.current-component [data-editableProperty] textarea {
+	height: 100%!important;
+}
+
+
+.type-metro-textfield-password.type-metro-textfield .faux-input:not(.placeholder-input), .type-metro-textfield-password.type-metro-textfield.box.current-component [data-editableProperty] textarea{
+	-webkit-text-security: disc;
+}
+
+
+.type-metro-textarea textarea {
+	resize: none;
+	padding: 10px;
+	margin: 0;
+}
+
+/* TYPE = CHECKBOX */
+.type-metro-checkbox input {
+	display: none;
+}
+
+.type-metro-checkbox label {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-checkbox label span {
+	display: none;
+	font-weight: bold;
+	margin-top: -10%;
+	text-align: center;
+}
+
+.type-metro-checkbox input:checked+label span {
+	display: block;
+}
+
+/* TYPE = RADIOBUTTON */
+.type-metro-radio label {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-radio input {
+	display: none;
+}
+
+.type-metro-radio label span {
+	display: none;
+	width: 60%;
+	height: 60%;
+	margin: 20%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.type-metro-radio input:checked+label span {
+	display: block;
+}
+
+/* TYPE = ONOFF */
+.type-metro-onoff input {
+	display: none;
+}
+
+.type-metro-onoff label {
+	display: block;
+	overflow: hidden;
+	border: 2px solid #666666;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 1px;
+}
+
+.type-metro-onoff .flipswitch-inner {
+	display: block;
+	width: 200%;
+	height: 100%;
+	margin-left: -100%;
+	-moz-transition: margin 0.3s ease-in;
+	-webkit-transition: margin 0.3s ease-in;
+	transition: margin 0.3s ease-in;
+}
+
+.type-metro-onoff .activelabel,.type-metro-onoff .inactivelabel {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.type-metro-onoff .switch {
+	display: block;
+	width: 20%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-moz-transition: right 0.3s ease-in;
+	-webkit-transition: right 0.3s ease-in;
+	transition: right 0.3s ease-in;
+}
+
+.type-metro-onoff input:checked+label .flipswitch-inner {
+	margin-left: 0;
+}
+
+.type-metro-onoff input:checked+label .switch {
+	right: -2px !important;
+}
+
+/* TYPE = SLIDER  */
+.type-metro-slider .slider-bar {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.type-metro-slider.type-slider-vertical .slider-bar {
+	top: auto;
+	left: 0;
+}
+
+.type-metro-slider .slider-bar-filled {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.type-metro-slider .slider-button {
+	width: 100%;
+	height: 100%;
+	background: #ccc;
+	display: block;
+	position: absolute;
+}
+
+/* TYPE = PROGRESS  */
+.type-metro-progress .slider-bar-filled {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+/* TYPE = SELECT */
+.type-metro-select .metro-dropdown-contextmenu {
+	padding: 10px;
+	display: none;
+	border-top-width: 0 !important;
+}
+
+.current-component.type-metro-select .metro-dropdown-contextmenu {
+	display: block;
+}
+
+.type-metro-select .metro-dropdown-item {
+	padding: 5px 10px;
+	position: relative;
+}
+
+.type-metro-select .metro-dropdown-item:first-child {
+	padding-top: 0;
+}
+
+.type-metro-select .dropdown-trigger {
+	overflow: hidden;
+	height: 100%;
+	padding-left: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.type-metro-select .dropdown-trigger-icon {
+	height: 100%;
+	float: right;
+	background: center center no-repeat;
+	background-size: 50%;
+}
+}
